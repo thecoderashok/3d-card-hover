@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+   position: relative;
+   width: 200px;
+   height: 170px;
+   background: linear-gradient(to top , #196d35, #3fff7f);
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 50px 0;
+   cursor: default;
+   will-change: transform;
+   transform-style: preserve-3d;
+}
+
+.emozi_image{
+    position: relative;
+    width: 80px;
+    height: auto;
+    /* translateZ for Parallax Effect  */
+    transform: translateZ(30px);
+}
+
+.text{
+    position: relative;
+    font-size: 13px;
+    color: white;
+    /* translateZ for Parallax Effect  */
+    transform: translateZ(25px);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+button{
+    position: relative;
+    padding: 4px 15px;
+    font-size: 11px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(222, 222, 222);
+    cursor: pointer;
+    /* translateZ for Parallax Effect  */
+    transform: translateZ(25px);
+}
